@@ -1,5 +1,6 @@
 <?php
 
+use App\Mcp\Servers\PetStoreDocsServer;
 use Laravel\Mcp\Facades\Mcp;
 
-// Mcp::web('/mcp/demo', \App\Mcp\Servers\PublicServer::class);
+Mcp::web('/mcp/petstore-docs', PetStoreDocsServer::class);
