@@ -1,5 +1,7 @@
 # Laravel MCP Swagger
 
+Статья на Хабр - https://habr.com/ru/articles/1089476/
+
 MCP-сервер на Laravel, который открывает Claude Code доступ к документации Swagger 2.0: полнотекстовый поиск по операциям и схемам, детали операций, JSON-схемы и операции по тегам.
 
 - **Backend**: Laravel 13 + laravel/mcp + laravel/scout (драйвер `database`, full-text поиск)
